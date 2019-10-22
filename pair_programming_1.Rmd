@@ -1,0 +1,17 @@
+---
+title: "Pair Programming 1"
+author: "Anan Hafez"
+date: "10/22/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+trains <- read.csv("https://d1b10bmlvqabco.cloudfront.net/attach/jzf5m8vslhy1hd/jkjten94fm93ti/k21uxtzailqc/train.csv")
+
+trains
+```
+
